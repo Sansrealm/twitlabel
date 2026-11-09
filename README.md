@@ -6,7 +6,13 @@ A Chrome extension that marks X (Twitter) accounts based outside your home count
 - **Possibly alien** (outline pill): the account is listed outside your home country, but X has tagged that location as unreliable.
 - Accounts in your home country, and accounts with no location on X, get no pill.
 
-Other extensions put a country flag on every account. This one marks only the accounts outside your home country and keeps the ones X itself is unsure about separate.
+## Why it was built
+
+A lot of the heat on local topics comes from accounts that are not local. A thread about an election, a school board or a city issue fills up with angry replies from accounts based on another continent, with no stake in the outcome. Some of it is engagement farming, because outrage pays.
+
+X already knows where an account is based and shows it on the account's "About this account" page. Nobody clicks into profiles while reading replies, so the one fact that would change how you read a reply is not where you need it.
+
+Twitlabel puts that fact in the thread, next to the name. It does not judge intent. Plenty of people abroad have good reasons to weigh in. It makes the "where from" visible so you can decide how much weight to give a reply.
 
 ## Install
 
