@@ -1,0 +1,85 @@
+.alienacct-pill {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  align-self: center;
+  flex: 0 0 auto;
+  margin-left: 6px;
+  padding: 1px 8px 2px;
+  border-radius: 999px;
+  background: #ffb224;
+  color: #1c1300;
+  font: 700 11.5px/16px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  z-index: 1;
+}
+.alienacct-pill:hover { background: #ffc34d; }
+.alienacct-pill:focus-visible { outline: 2px solid #1d9bf0; outline-offset: 2px; }
+
+/* "Possibly alien": outline only, with a caution triangle */
+.alienacct-pill.alienacct-pill-maybe {
+  gap: 4px;
+  padding: 0 8px 1px 6px;
+  border: 1px solid #b45309;
+  background: transparent;
+  color: #9a4a06;
+  font-weight: 600;
+}
+.alienacct-pill.alienacct-pill-maybe:hover { background: rgba(255, 178, 36, 0.16); }
+.alienacct-pill.alienacct-pill-maybe.alienacct-on-dark { border-color: #ffb224; color: #ffb224; }
+.alienacct-icon {
+  width: 12px;
+  height: 12px;
+  flex: 0 0 auto;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* profile header: name and handle are stacked, so sit the pill under them */
+.alienacct-pill.alienacct-stacked {
+  align-self: flex-start;
+  margin: 6px 0 0;
+}
+
+.alienacct-pop {
+  position: fixed;
+  z-index: 2147483000;
+  max-width: 280px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: #ffffff;
+  color: #0f1419;
+  border: 1px solid #cfd9de;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.22);
+  font: 400 14px/19px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.alienacct-pop.alienacct-dark {
+  background: #16181c;
+  color: #e7e9ea;
+  border-color: #2f3336;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.6);
+}
+.alienacct-pop-main strong { font-weight: 700; }
+.alienacct-pop-note {
+  margin-top: 6px;
+  font-size: 12.5px;
+  line-height: 17px;
+  color: #536471;
+}
+.alienacct-dark .alienacct-pop-note { color: #8b98a5; }
+.alienacct-pop-link {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 12.5px;
+  color: #1d9bf0;
+  text-decoration: none;
+}
+.alienacct-pop-link:hover { text-decoration: underline; }
