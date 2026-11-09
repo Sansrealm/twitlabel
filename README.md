@@ -10,7 +10,7 @@ A Chrome extension that marks X (Twitter) accounts based outside your home count
 
 A lot of the heat on local topics comes from accounts that are not local. A thread about an election, a school board or a city issue fills up with angry replies from accounts based on another continent, with no stake in the outcome. Some of it is engagement farming, because outrage pays.
 
-X already knows where an account is based and shows it on the account's "About this account" page. Nobody clicks into profiles while reading replies, so the one fact that would change how you read a reply is not where you need it.
+X already knows where an account is based and shows it on the account's "About this account" page. Nobody clicks into profiles when reading or responding to a post, so the one fact that would change how you read a reply is not where you need it.
 
 Twitlabel puts that fact in the thread, next to the name. It does not judge intent. Plenty of people abroad have good reasons to weigh in. It makes the "where from" visible so you can decide how much weight to give a reply.
 
