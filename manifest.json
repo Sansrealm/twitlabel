@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Alien Account for X",
+  "name": "Twitlabel",
   "version": "1.0.0",
   "description": "Adds an 'Alien account' pill to X accounts based outside your home country. Click the pill to see the country.",
   "permissions": ["storage"],
@@ -11,7 +11,7 @@
     "128": "icons/icon128.png"
   },
   "action": {
-    "default_title": "Alien Account settings",
+    "default_title": "Twitlabel settings",
     "default_popup": "popup.html"
   },
   "content_scripts": [

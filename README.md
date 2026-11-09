@@ -1,4 +1,4 @@
-# Alien Account for X
+# Twitlabel
 
 A Chrome extension that marks X (Twitter) accounts based outside your home country, so you can see at a glance when a reply comes from somewhere else.
 
